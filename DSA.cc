@@ -1,10 +1,15 @@
-#include<bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
-int main() {
-    int x;
-    int y;
-    cin >> x >> y;
-    cout << "Value of x: " << x << “ and y: “ <<y;
-    return 0;
+int main(){
+    int a = 2;
+    int b = a+1;
+    if((a=3)==b){
+        cout<<a;
+    }
+    else{
+        cout<<a+1;
+    }
+    cin.get(); 
+
 }
